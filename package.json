@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "build": "webpack",
     "start": "NODE_ENV=development webpack-dev-server --content-base ./ --hot --inline --colors --port 8080 --open --host 127.0.0.1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
